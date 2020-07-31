@@ -1,12 +1,12 @@
 <!DOCTYPE html>   
 <html>   
 <head>  
-<meta name="viewport" content="width=500px, initial-scale=1">  
+<meta name="viewport" content="width=page, initial-scale=1">  
 <title> Login Page </title>  
 <style>   
 Body {  
   font-family: Calibri, Helvetica, sans-serif;  
-  background-color: rgb(192, 193, 255);  
+  background-color: lightblue ;  
 }  
 button {   
        background-color: grey;   
@@ -40,12 +40,24 @@ button {
      
  .container {   
         padding: 25px;   
-        background-color: lightblue;  
+        background-color: whitesmoke;  
     }   
 </style>   
 </head>    
 <body>    
-    <center> <h1> Student Login Form </h1> </center>   
-    
+    <center> <h1> LOGIN FORM (SURVEY)  </h1></center>   
+    <form>  
+        <div class="container">   
+            <label>Username/ E-mail : </label>   
+            <input type="text" placeholder="Enter Username or E-mail" name="username" required>  
+            <label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required>  
+            <button type="submit">Sign-in</button>   
+            <input type="checkbox" checked="checked"> Remember me   
+            <button type="button" class="cancelbtn"> Cancel</button>   
+            Forgot <a href="#"> Password? </a> 
+            <button type="FORGOT PASSWORD"> FORGOT PASSWORD</button>  
+        </div>   
+    </form>     
 </body>     
 </html>  
